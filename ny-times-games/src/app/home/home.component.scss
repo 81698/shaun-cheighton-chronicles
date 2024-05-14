@@ -1,9 +1,11 @@
 .mainbody {
-  /* The image used */
-  background-image: url("shaun.jpg");
+  position: absolute;
+  top: 10%; /* Header Height */
+  width: 100%;
+  height: 110%;
 
-  /* Full height */
-  height: 100%;
+  /* The image used */
+  background-image: url("home.jpg");
 
   /* Center and scale the image nicely */
   background-position: center;
