@@ -1,0 +1,21 @@
+<div class="mainbody">
+  <div class="center box">
+    <div style="margin: auto" *ngFor="let puzzleRow of puzzle; let row = index">
+      <span *ngFor="let puzzleCell of puzzleRow; let col = index">
+        <button
+          id="{{ row }}-{{ col }}"
+          (click)="clickButton(row, col)"
+          mat-button
+          color="white"
+          class="btn-square"
+        >
+          {{ puzzleCell }}
+        </button>
+      </span>
+      <!-- <mat-divider></mat-divider> -->
+    </div>
+
+    <div>Words Found: {{ wordsFound }} / {{ answers.length }}</div>
+    <button (click)="clearSelected()">Clear Selected</button>
+  </div>
+</div>

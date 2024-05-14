@@ -1,0 +1,28 @@
+.button-square {
+  height: 10vw;
+  width: 10vw;
+  font-size: large;
+  font-family: "Georgia";
+  font-weight: bold;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3vh;
+  column-gap: 3vw;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.green {
+  background-color: #6fad69;
+  color: white;
+}
+
+.yellow {
+  background-color: #d2b23c;
+  color: white;
+}
